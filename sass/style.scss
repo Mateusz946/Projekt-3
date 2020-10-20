@@ -37,11 +37,14 @@ body{
 }
 .navigation li{
     display: inline-block;
-    padding: 5px 20px;
+    padding: 10px 20px;
+}
+.navigation a{
+    text-decoration: none;
     color: #fff;
-    font-family: $font-family-titl;
+    font-size: 15px;
     text-transform: uppercase;
-    text-decoration: solid;
+    font-family: $font-family-titl;
 }
 .header{
     color: #fff;
@@ -78,7 +81,7 @@ body{
 
 /*Section services*/
 .services{
-    height: 50vh;
+    height: 100%;
 }
 .services h1{
     margin: 70px 0 8px;
@@ -88,7 +91,7 @@ body{
     letter-spacing: 2px;
 }
 .services h6{
-    margin-top: 0;
+    margin: 0 0 70px;
     color: $color-para;
     text-align: center;
     font-family: $font-family-para;
@@ -101,6 +104,7 @@ body{
 .services-row{
     flex: 0 0 33%;
     text-align: center;
+    padding: 10px 20px;
 }
 .services h4{
     font-size: 20px;
@@ -108,7 +112,7 @@ body{
 }
 .services p{
     color: $color-para;
-
+    font-size: 17px;
 }
 
 /*section portfolio*/
@@ -174,14 +178,24 @@ body{
 }
 
 
-
-
-
 @media (max-width:800px){
     .navigation{
+
         position: absolute;
         top: 15%;
-        left: 50%;
+        left: 35%;
         transform: translate(-50%, -50%);
+    }
+    .navigation li{
+        display: block;
+        padding: 15px 30px;
+    }
+    .btn-header{
+        padding: 15px 40px;
+        font-size: 15px;
+    }
+    .services-row{
+        text-align: center;
+        padding: 10px 20px;
     }
 }

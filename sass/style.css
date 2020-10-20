@@ -37,11 +37,15 @@ body {
 
 .navigation li {
   display: inline-block;
-  padding: 5px 20px;
+  padding: 10px 20px;
+}
+
+.navigation a {
+  text-decoration: none;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-size: 15px;
   text-transform: uppercase;
-  text-decoration: solid;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -82,7 +86,7 @@ body {
 
 /*Section services*/
 .services {
-  height: 50vh;
+  height: 100%;
 }
 
 .services h1 {
@@ -94,7 +98,7 @@ body {
 }
 
 .services h6 {
-  margin-top: 0;
+  margin: 0 0 70px;
   color: #8f8f8f;
   text-align: center;
   font-family: "Sansita Swashed", cursive;
@@ -109,6 +113,7 @@ body {
 .services-row {
   flex: 0 0 33%;
   text-align: center;
+  padding: 10px 20px;
 }
 
 .services h4 {
@@ -118,6 +123,7 @@ body {
 
 .services p {
   color: #8f8f8f;
+  font-size: 17px;
 }
 
 /*section portfolio*/
@@ -194,7 +200,19 @@ body {
   .navigation {
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%, -50%);
+  }
+  .navigation li {
+    display: block;
+    padding: 15px 30px;
+  }
+  .btn-header {
+    padding: 15px 40px;
+    font-size: 15px;
+  }
+  .services-row {
+    text-align: center;
+    padding: 10px 20px;
   }
 }
