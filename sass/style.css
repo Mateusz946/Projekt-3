@@ -81,11 +81,15 @@ body {
 }
 
 /*Section services*/
+.services {
+  height: 50vh;
+}
+
 .services h1 {
   margin: 70px 0 8px;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   letter-spacing: 2px;
 }
 
@@ -105,6 +109,50 @@ body {
 .services-row {
   flex: 0 0 33%;
   text-align: center;
+}
+
+/*section portfolio*/
+.portfolio {
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.portfolio h1 {
+  text-align: center;
+  margin: 70px 0 8px;
+  padding-top: 90px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.portfolio h6 {
+  margin: 0 0 70px;
+  color: #adadad;
+  text-align: center;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 15px;
+}
+
+.portfolio-wrapper {
+  padding: 0 20px 50px;
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-row {
+  flex: 0 0 33,3333%;
+  margin: auto;
+}
+
+.portfolio img {
+  padding: 15px 0 0 30px;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 800px) {
